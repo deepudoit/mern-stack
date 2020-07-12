@@ -5,7 +5,7 @@ const posts = require("./routes/api/posts");
 const profile = require("./routes/api/profile");
 
 const app = express();
-const db = require("./config/keys").mongoUri;
+const db = require("./config/db").mongoUri;
 
 //Mongo DB connection
 mongoose
